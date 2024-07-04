@@ -30,8 +30,8 @@ public class HorTandResult{
 
         System.err.println("Heads: " + head + "Tails: " + tail);
         if(head ==2){
-            System.out.println("You won");
+            System.out.println( name+ " won!");
         }
-        else{System.out.println("You lost");}
+        else{System.out.println(name + " lost!");}
     }
 }
